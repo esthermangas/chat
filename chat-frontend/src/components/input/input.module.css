@@ -1,0 +1,48 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 500;
+    height: 70px;
+    margin: 4px;
+}
+.small {
+    width: 40% !important;
+}
+.default {
+    width: 50%;
+    border: none;
+    height: 25px;
+    border-radius: 4px;
+    cursor: text;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+
+}
+.default:focus{
+    outline: none;
+    border: var(--dark-blue) 2px solid;
+}
+
+.big {
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 4px;
+}
+
+.error {
+    border: 2px solid var(--red-error);
+}
+.error:focus {
+    border: 2px solid var(--red-error);
+}
+
+.spanError {
+    color: var(--red-error);
+    font-size: 14px;
+}

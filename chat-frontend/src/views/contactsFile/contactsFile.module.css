@@ -1,0 +1,54 @@
+.root {
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.84);
+}
+
+.contactsSearch {
+    width: 100%;
+    height: 10%;
+    background-color: var(--primary-blue);
+    border-radius: 8px 8px 0 0;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.input {
+    height: 20px;
+    border: none;
+    background-color: var(--secondary-blue);
+    border-radius: 6px;
+    text-align: center;
+}
+.input:focus {
+    outline: none;
+    border-radius: 6px;
+    border: var(--dark-blue) solid 2px;
+}
+.contactBody {
+    width: 100%;
+    height: 80%;
+    background: rgba(137, 91, 195, 0.30);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    box-sizing: border-box;
+    overflow: scroll;
+    color: white;
+}
+
+.contactsSettings {
+    width: 100%;
+    height: 10%;
+    background-color: var(--primary-blue);
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}

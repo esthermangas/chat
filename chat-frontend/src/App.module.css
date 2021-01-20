@@ -1,0 +1,30 @@
+.root {
+    background-image: url('./assets/chatBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.root > div, button, input {
+    font-family: monospace;
+}
+
+:root{
+    --primary-blue: #1A7D9E;
+    --light-blue: #22A6D3;
+    --dark-blue: #115369;
+    --secondary-blue: #8acfe0;
+    --blue: #2F70B2;
+    --pink: #CF6CAD;
+    --light-pink: #E1A3CB;
+    --dark-pink: #5B2549;
+    --red-error: #f84040;
+    --peach: #DD9992;
+    --light-peach: #EBC7C1;
+    --dark-peach: #C86756;
+    --violet: #6E6A9C;
+}
+
+

@@ -1,0 +1,65 @@
+.root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 2;
+    opacity: 0.9;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    padding-top: 12px;
+}
+.text {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: monospace;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.inputCont {
+    margin-top: 16px;
+    width: 500px;
+    display: flex;
+}
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redirectCont {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redirectText {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+}

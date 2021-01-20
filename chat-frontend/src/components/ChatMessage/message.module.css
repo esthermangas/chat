@@ -1,0 +1,21 @@
+.root {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    max-width: 30%;
+    border-radius: 6px;
+    background-color: var(--blue);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 4px;
+}
+
+.time {
+    display: flex;
+    align-items: flex-end;
+}
